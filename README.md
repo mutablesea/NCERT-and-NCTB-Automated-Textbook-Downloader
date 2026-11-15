@@ -27,6 +27,43 @@ All textbooks are organized automatically under **Academic Year** root folders w
 
 ---
 
+## 🖥️ Desktop GUI Previews
+
+### 1. Combined Search Across All Sources (`Source: all`, `Search: Mathematics`)
+![Source All - Search Mathematics](output/11_source_all_search_mathematics.png)
+
+### 2. NCERT — Class 11 (with `Include NCERT Vocational` Enabled)
+![NCERT Class 11 with Vocational](output/10_ncert_class_11_vocational.png)
+
+### 3. NCERT — Class 10 (`Source: ncert`, `Classes: 10`)
+![NCERT Class 10](output/1_ncert_class_10.png)
+
+### 4. NCERT — Class 6 (`Source: ncert`, `Classes: 6`)
+![NCERT Class 6](output/2_ncert_class_6.png)
+
+### 5. NCTB — All Classes & Streams (`Academic Year: 2026`, `Classes: all`)
+![NCTB Class All AY 2026](output/3_nctb_class_all.png)
+
+### 6. NCTB — Academic Year 2026 (`Higher Secondary AY25-26 & AY26-27`)
+![NCTB AY 2026 Higher Secondary](output/7_nctb_ay_2026.png)
+
+### 7. NCTB — Class 9–10 (`Academic Year: 2026`, `Stage: Secondary`)
+![NCTB Class 9-10](output/4_nctb_class_9_10.png)
+
+### 8. NCTB — Class 5 (`Academic Year: 2026`, `Classes: 5`)
+![NCTB Class 5](output/8_nctb_class_5.png)
+
+### 9. NCTB — Pre-Primary (`Academic Year: 2026`, `Stage: Pre-Primary`)
+![NCTB Pre-Primary](output/9_nctb_pre_primary.png)
+
+### 10. NCTB — Academic Year 2024 (`Academic Year: 2024`, `Classes: all`)
+![NCTB AY 2024](output/5_nctb_ay_2024.png)
+
+### 11. NCTB — Academic Year 2019 (`Academic Year: 2019`, `Classes: all`)
+![NCTB AY 2019](output/6_nctb_ay_2019.png)
+
+---
+
 ## 📊 Catalog & Approximate Storage Size
 
 If you choose to download the entire catalog for an academic year, approximate disk usage is as follows:
@@ -118,6 +155,7 @@ NCERT & NCTB Books/
 ├── download_books_ncert.py           # NCERT-only CLI downloader
 ├── download_books_nctb.py            # NCTB-only CLI downloader
 ├── download_books_gui.py             # Tkinter Desktop GUI downloader
+├── output/                           # GUI preview screenshots
 ├── README.md
 │
 ├── NCERT/
