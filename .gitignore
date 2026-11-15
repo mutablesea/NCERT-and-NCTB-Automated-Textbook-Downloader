@@ -1,0 +1,247 @@
+# ==============================================================================
+# DOWNLOADED TEXTBOOKS & ARCHIVES
+# Prevents uploading large textbook files (gigabytes of data) to Git
+# ==============================================================================
+
+# Ignore all downloaded Indian NCERT textbooks
+NCERT/
+
+# Ignore all downloaded Bangladeshi NCTB textbooks
+NCTB/
+
+# Ignore any PDF files (keeps repository size small)
+*.pdf
+
+# Ignore downloaded zip files
+*.zip
+
+# Ignore tar.gz compressed archive files
+*.tar.gz
+
+# Ignore rar compressed archive files
+*.rar
+
+
+# ==============================================================================
+# TEMPORARY & INCOMPLETE DOWNLOAD FILES
+# Files created while a download is still running or paused
+# ==============================================================================
+
+# Ignore temporary download stream files
+*.tmp
+
+# Ignore general temp files
+*.temp
+
+# Ignore incomplete files from download managers
+*.download
+
+# Ignore partial download chunks
+*.part
+
+# Ignore unfinished Google Chrome download files
+*.crdownload
+
+
+# ==============================================================================
+# LOGS & DEBUG FILES
+# Text files that record download history and errors
+# ==============================================================================
+
+# Ignore all log files
+*.log
+
+# Ignore the folder where log files are stored
+logs/
+
+
+# ==============================================================================
+# PYTHON COMPILED FILES & CACHE
+# Files created automatically by Python when running scripts (not needed in Git)
+# ==============================================================================
+
+# Ignore Python 3 bytecode cache folders
+__pycache__/
+
+# Ignore compiled Python files (.pyc, .pyo, .pyd)
+*.py[cod]
+
+# Ignore Jython compiled class files
+*$py.class
+
+# Ignore C extension compiled library files
+*.so
+
+# Ignore Pytest test cache folder
+.pytest_cache/
+
+# Ignore test coverage measurement data file
+.coverage
+
+# Ignore test coverage HTML report folder
+htmlcov/
+
+
+# ==============================================================================
+# PYTHON BUILD & PACKAGE OUTPUTS
+# Folders created when building or installing Python packages
+# ==============================================================================
+
+# Ignore Python package build folder
+build/
+
+# Ignore develop egg link files
+develop-eggs/
+
+# Ignore distributed package archives (tarballs and wheels)
+dist/
+
+# Ignore pip package download cache
+downloads/
+
+# Ignore Python egg package folders
+eggs/
+.eggs/
+
+# Ignore local package library folders
+lib/
+lib64/
+
+# Ignore buildout parts folder
+parts/
+
+# Ignore source distribution folder
+sdist/
+
+# Ignore setuptools variable data folder
+var/
+
+# Ignore built Python wheel files
+wheels/
+share/python-wheels/
+
+# Ignore package metadata folders
+*.egg-info/
+
+# Ignore buildout installed configuration file
+.installed.cfg
+
+# Ignore standalone Python egg files
+*.egg
+
+# Ignore source distribution manifest file
+MANIFEST
+
+
+# ==============================================================================
+# PYTHON VIRTUAL ENVIRONMENTS
+# Folders that store installed packages on your local computer
+# ==============================================================================
+
+# Ignore standard Python virtual environment folder
+venv/
+
+# Ignore hidden virtual environment folder (.venv)
+.venv/
+
+# Ignore general environment folder
+env/
+
+# Ignore uppercase virtual environment folder
+ENV/
+
+# Ignore backup virtual environment folders
+env.bak/
+venv.bak/
+
+
+# ==============================================================================
+# MACOS SYSTEM FILES
+# Hidden files created automatically by Mac Finder and Spotlight
+# ==============================================================================
+
+# Ignore Mac folder view settings file
+.DS_Store
+
+# Ignore all variants of DS_Store files
+.DS_Store*
+.DS_Store?
+
+# Ignore Mac AppleDouble hidden companion for DS_Store
+._.DS_Store
+
+# Ignore DS_Store in all folders and subfolders
+**/.DS_Store
+**/.DS_Store*
+
+# Ignore any file that has DS_Store in its name
+*DS_Store*
+
+# Ignore Mac hidden metadata files created on USB or external drives
+._*
+**/._*
+
+# Ignore Mac Spotlight search index folder
+.Spotlight-V100
+
+# Ignore Mac Trash folder on external drives
+.Trashes
+
+# Ignore Mac AppleDouble system folder
+.AppleDouble
+
+# Ignore Mac Launch Services override file
+.LSOverride
+
+# Ignore custom folder icon files created by Mac Finder
+Icon
+Icon?
+
+
+# ==============================================================================
+# WINDOWS SYSTEM FILES
+# Hidden thumbnail and folder settings files created by Windows Explorer
+# ==============================================================================
+
+# Ignore Windows thumbnail database files
+Thumbs.db
+Thumbs.db:encryptable
+
+# Ignore Windows Media Center thumbnail cache files
+ehthumbs.db
+ehthumbs_vista.db
+
+# Ignore Windows folder layout configuration file
+[Dd]esktop.ini
+
+
+# ==============================================================================
+# LINUX SYSTEM FILES
+# Backup and view settings files created on Linux
+# ==============================================================================
+
+# Ignore automatic backup files created by Linux text editors
+*~
+
+# Ignore KDE folder view settings file
+.directory
+
+
+# ==============================================================================
+# CODE EDITORS & IDE SETTINGS
+# Personal editor settings (VS Code, PyCharm, Sublime, Vim)
+# ==============================================================================
+
+# Ignore JetBrains / PyCharm project settings folder
+.idea/
+
+# Ignore Visual Studio Code project settings folder
+.vscode/
+
+# Ignore Vim temporary swap files
+*.swp
+*.swo
+
+# Ignore Sublime Text project and workspace session files
+*.sublime-project
+*.sublime-workspace
